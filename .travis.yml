@@ -1,0 +1,7 @@
+language: ruby
+
+script: echo Hi
+
+import:
+  - ./.travis/all-the-rubies.yml
+  - ./.travis/only-some-branches.yml
