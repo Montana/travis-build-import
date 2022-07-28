@@ -1,6 +1,6 @@
 language: ruby
 
-script: echo Hi
+script: echo "Montana testing the Build Import feature"
 
 import:
   - ./.travis/all-the-rubies.yml
