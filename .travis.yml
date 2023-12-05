@@ -1,3 +1,4 @@
+dist: jammy
 language: ruby
 
 script: echo "Montana testing the Build Import feature"
