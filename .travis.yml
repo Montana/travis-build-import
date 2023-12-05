@@ -1,4 +1,3 @@
-dist: jammy
 language: ruby
 
 script: echo "Montana testing the Build Import feature"
@@ -6,3 +5,5 @@ script: echo "Montana testing the Build Import feature"
 import:
   - ./.travis/all-the-rubies.yml
   - ./.travis/only-some-branches.yml
+
+install: skip
